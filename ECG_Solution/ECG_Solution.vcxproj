@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\gameObjects\Screen.cpp" />
+    <ClCompile Include="src\gameObjects\Fish.cpp" />
+    <ClCompile Include="src\AnimModel.cpp" />
+    <ClCompile Include="src\gameObjects\plants\SaleSign.cpp" />
+    <ClCompile Include="src\gameObjects\BackpackUpgrade.cpp" />
+    <ClCompile Include="src\gameObjects\GraphicsCard.cpp" />
+    <ClCompile Include="src\gameObjects\Shop.cpp" />
+    <ClCompile Include="src\Particle.cpp" />
+    <ClCompile Include="src\gameObjects\plants\Melon.cpp" />
+    <ClCompile Include="src\gameObjects\plants\MelonPlant.cpp" />
+    <ClCompile Include="src\gameObjects\plants\MelonSeed.cpp" />
+    <ClCompile Include="src\gameObjects\plants\Carrot.cpp" />
+    <ClCompile Include="src\gameObjects\plants\Corn.cpp" />
+    <ClCompile Include="src\gameObjects\plants\CarrotPlant.cpp" />
+    <ClCompile Include="src\gameObjects\plants\CornPlant.cpp" />
+    <ClCompile Include="src\ModelManager.cpp" />
+    <ClCompile Include="src\gameObjects\plants\CarrotSeed.cpp" />
+    <ClCompile Include="src\gameObjects\plants\CornSeed.cpp" />
+    <ClCompile Include="src\gameObjects\Decoration.cpp" />
+    <ClCompile Include="src\gameObjects\plants\Plant.cpp" />
+    <ClCompile Include="src\gameObjects\SellBox.cpp" />
+    <ClCompile Include="src\gameObjects\Inventory.cpp" />
+    <ClCompile Include="src\FarmSimulationEventCallback.cpp" />
+    <ClCompile Include="src\Model.cpp" />
+    <ClCompile Include="src\NewTexture.cpp" />
+    <ClCompile Include="src\PlayerCamera.cpp" />
+    <ClCompile Include="src\Postp.cpp" />
+    <ClCompile Include="src\TextRender.cpp" />
+    <ClCompile Include="src\gameObjects\plants\Tomato.cpp" />
+    <ClCompile Include="src\gameObjects\plants\TomatoPlant.cpp" />
+    <ClCompile Include="src\gameObjects\plants\TomatoSeed.cpp" />
+    <ClCompile Include="src\gameObjects\Water.cpp" />
+    <ClInclude Include="src\gameObjects\Screen.h" />
+    <ClInclude Include="src\gameObjects\Fish.h" />
+    <ClInclude Include="src\gameObjects\Collidable.h" />
+    <ClInclude Include="src\AnimModel.h" />
+    <ClInclude Include="src\gameObjects\plants\SaleSign.h" />
+    <ClInclude Include="src\gameObjects\BackpackUpgrade.h" />
+    <ClInclude Include="src\gameObjects\GraphicsCard.h" />
+    <ClInclude Include="src\gameObjects\Shop.h" />
+    <ClInclude Include="src\Particle.h" />
+    <ClInclude Include="src\gameObjects\plants\Melon.h" />
+    <ClInclude Include="src\gameObjects\plants\MelonPlant.h" />
+    <ClInclude Include="src\gameObjects\plants\MelonSeed.h" />
+    <ClInclude Include="src\gameObjects\plants\Carrot.h" />
+    <ClInclude Include="src\gameObjects\plants\Corn.h" />
+    <ClInclude Include="src\gameObjects\plants\CarrotPlant.h" />
+    <ClInclude Include="src\gameObjects\plants\CornPlant.h" />
+    <ClInclude Include="src\ModelManager.h" />
+    <ClInclude Include="src\gameObjects\plants\CarrotSeed.h" />
+    <ClInclude Include="src\gameObjects\plants\CornSeed.h" />
+    <ClInclude Include="src\gameObjects\plants\Plant.h" />
+    <ClInclude Include="src\gameObjects\plants\Seed.h" />
+    <ClInclude Include="src\gameObjects\Decoration.h" />
+    <ClInclude Include="src\gameObjects\SellBox.h" />
+    <ClInclude Include="src\gameObjects\plants\Crop.h" />
+    <ClInclude Include="src\gameObjects\Item.h" />
+    <ClInclude Include="src\gameObjects\Inventory.h" />
+    <ClInclude Include="src\FarmSimulationEventCallback.h" />
+    <ClInclude Include="src\gameObjects\Interactable.h" />
+    <ClInclude Include="src\Model.h" />
+    <ClInclude Include="src\gameObjects\Field.h" />
+    <ClInclude Include="src\gameObjects\Player.h" />
+    <ClInclude Include="src\gameObjects\SceneObject.h" />
+    <ClInclude Include="src\Camera.h" />
+    <ClCompile Include="src\gameObjects\Field.cpp" />
+    <ClCompile Include="src\gameObjects\Player.cpp" />
+    <ClCompile Include="src\Geometry.cpp" />
+    <ClInclude Include="src\Geometry.h" />
+    <ClInclude Include="src\INIReader.h" />
+    <ClInclude Include="src\Light.h" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Material.cpp" />
+    <ClInclude Include="src\Material.h" />
+    <ClInclude Include="src\NewTexture.h" />
+    <ClInclude Include="src\PlayerCamera.h" />
+    <ClInclude Include="src\Postp.h" />
+    <ClInclude Include="src\Shader.h" />
+    <ClInclude Include="src\TextRender.h" />
+    <ClInclude Include="src\Texture.h" />
+    <ClInclude Include="src\Utils.h" />
+    <ClInclude Include="src\gameObjects\plants\Tomato.h" />
+    <ClInclude Include="src\gameObjects\plants\TomatoPlant.h" />
+    <ClInclude Include="src\gameObjects\plants\TomatoSeed.h" />
+    <ClInclude Include="src\gameObjects\Water.h" />
+  </ItemGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseExe|Win32">
+      <Configuration>ReleaseExe</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{89281764-4192-41E0-B813-DFB62C075125}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ECG_Solution</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>Farm4Money</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseExe|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseExe|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)build\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(SolutionDir)build\$(Configuration)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseExe|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(SolutionDir)build\$(Configuration)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>NO_BONUS;WIN32;_CRT_SECURE_NO_WARNINGS;GLEW_STATIC;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)external\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)external\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;opencv_core341d.lib;opencv_videoio341d.lib;opencv_imgcodecs341d.lib;opencv_video341d.lib;opencv_imgproc341d.lib;glew32s.lib;glfw3.lib;ECG_Library_Debug.lib;PhysX3CommonDEBUG_x86.lib;PhysX3DEBUG_x86.lib;PhysX3ExtensionsDEBUG.lib;PxFoundationDEBUG_x86.lib;PhysX3CookingDEBUG_x86.lib;PhysX3CharacterKinematicDEBUG_x86.lib;PxPvdSDKDEBUG_x86.lib;assimp-vc140-mt.lib;zlibd.lib;zlibstaticd.lib;IrrXML.lib;freetype.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;MSVCRT</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NO_BONUS;WIN32;_CRT_SECURE_NO_WARNINGS;GLEW_STATIC;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)external\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)external\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>assimp-vc140-mt.lib;opencv_core341.lib;opencv_videoio341.lib;opencv_imgcodecs341.lib;opencv_video341.lib;opencv_imgproc341.lib;freetype.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;opengl32.lib;glew32s.lib;glfw3.lib;ECG_Library_Release.lib;PhysX3_x86.lib;PhysX3CharacterKinematic_x86.lib;PhysX3Common_x86.lib;PhysX3Cooking_x86.lib;PhysX3Extensions.lib;PxFoundation_x86.lib;PxPvdSDK_x86.lib;IrrXML.lib;zlibd.lib;zlibstaticd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMT</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseExe|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>USE_BONUS;WIN32;_CRT_SECURE_NO_WARNINGS;GLEW_STATIC;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)external\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)external\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32s.lib;glfw3.lib;ECG_Library_ReleaseExe.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMT</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
